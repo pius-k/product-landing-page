@@ -8,50 +8,57 @@
 </head>
 <body>
     <div id="container">
-        <header>
+        <header id="header">
             <img id="header-img" src="https://www.pngkey.com/png/full/143-1434708_anker-logo-vector-anker-soundcore-bluetooth-stereo-speaker.png" alt="anker logo">
             <h1 id="title">SoundCore Bluetooth Speaker</h1>
             <nav id="nav">
                 <ul>
-                    <li><strong>Pricing</strong></li>
-                    <li><strong>How it works</strong></li>
-                    <li><strong>Home</strong></li>
+                    <li><a href="#"><strong>Pricing</strong></a></li>
+                    <li><a href="#works"><strong>How it works</strong></a></li>
+                    <li><a href="#"><strong>Home</strong></a></li>
                 </ul>
             </nav>
         </header>
-        <p>
+        <p class="headp">
             24-Hour Playtime, 66-Foot Bluetooth Range & Built-in Mic, Dual-Driver Portable Wireless Speaker with Low Harmonic Distortion and Superior Sound. 
         </p>
+        <P class="headp">
+            Soundcore&reg; is a registered trademark of the Anker Technology (UK), see <a class="terms" href="#terms">Terms</a>.
+        </P>
         <form action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
-        <label for="email"><strong>Book Your Order Now!</strong></label>
+        <label class="label" for="email"><strong>Grab Your Order Now!</strong></label>
         <p class="space">
         <input class="put" id="email" type="email" placeholder="Enter your email address"><br>
         </p>
         <p class="space">
-        <input class="but" type="button" name="Submit" value="Submit">
+        <input class="but" type="button" name="Submit" value="Submit"><br>
+        </p>
+        <p id="or">OR</p>
+        <p id="amazon">
+        <input class="amazon" type="button"  name="Buy on Amazon" value="Buy on Amazon!">
         </p>
         </form>
         <div id="services">
           <ul>
             <li>
-                ASTONISHING SOUND: Breathtaking stereo sound with deep bass is delivered with exceptional clarity and zero distortion by two high-sensitivity drivers and a patented bass port. 
+                <strong>ASTONISHING SOUND:</strong> Breathtaking stereo sound with deep bass is delivered with exceptional clarity and zero distortion by two high-sensitivity drivers and a patented bass port. 
             </li>
             <li>
-                24H WORRY-FREE BATTERY LIFE: Anker's exclusive, long-life battery technology provides 24 hours of sublime music. 
+                <strong>24H WORRY-FREE BATTERY LIFE:</strong> Anker's exclusive, long-life battery technology provides 24 hours of sublime music. 
             </li>
             <li>
-                EFFORTLESS CONNECTIVITY: Bluetooth 4.0 ensures instant pairing and maintains a strong connection up to 66 ft. 
+                <strong>EFFORTLESS CONNECTIVITY:</strong> Bluetooth 4.0 ensures instant pairing and maintains a strong connection up to 66 ft. 
             </li>
             <li>
-                DESIGNED TO PLAY: Combines a solid, drop-proof build with tactile materials and seamless controls. 
+                <strong>DESIGNED TO PLAY: Combines a solid,</strong> drop-proof build with tactile materials and seamless controls. 
             </li>
             <li>
-                WGRAB, GO, LISTEN: Lightweight, yet robust unibody design provides the perfect soundtrack for the park, yard, or anywhere else at home or away. 
+                <strong>WGRAB, GO, LISTEN:</strong> Lightweight, yet robust unibody design provides the perfect soundtrack for the park, yard, or anywhere else at home or away. 
             </li>
           </ul>
         </div>
         <div id="video">
-            <iframe width="736" height="414" src="https://www.youtube.com/embed/N826TtJWxu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="588.8" id="works" height="331.2" src="https://www.youtube.com/embed/N826TtJWxu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div id="flexbox">
@@ -108,8 +115,16 @@
             
         </div>
         <footer id="footer">
-            <div id="footer1"></div>
-            <div id="footer2"></div>
+            <div id="footer1">
+                <ul>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a id="terms" href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div id="footer2">
+                <p>Copyright &copy; 2016, Anker Technology (UK) Ltd</p>
+            </div>
         </footer>
     </div>
 </body>
