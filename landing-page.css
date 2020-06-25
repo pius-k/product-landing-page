@@ -157,36 +157,84 @@ footer p {
     margin-right: 0px;
     margin-top: 0px;
 }
+/* my media querries begin from here, am trying to make the page responsive to smaller screens of max-width=500px*/
 
 @media only screen and (max-width: 500px) {
+#container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    }
 #flexbox {
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    margin-top: 20px;
 }   
 #flexbox1 { 
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 iframe {
     width: 354px;
     height: 200px;
 }
+#header {
+    height: 200px;
+    max-width: fit-content;
+}
 #header-img {
     display: block;
     text-align: right;
     margin: auto;
+    height: 57px;
+    width: 190px;
 }
 #title {
     display: block;
     text-align: center;
-    margin: auto;
+    margin: 0px;
+    position: relative;
+    left:0px;
+    top: 15px
 }
 #nav {
     display: block;
-    text-align: left;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: 5px;
+    margin-left: 0px;
+    height: 50px;
 }
-#nav {
+#nav li {
     display: inline;
-
+    float: none;
+}
+#services li {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.boxes {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+#footer1 li{
+    float: none;
+    display: inline;
+    margin-left: 35px;
+}
+#footer1 a {
+    text-align: center;
+}
+#footer2 p{
+    display: block;
+    text-align: center;
 }
 }
